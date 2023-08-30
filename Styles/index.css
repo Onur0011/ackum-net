@@ -26,7 +26,7 @@ footer {
 
 @media screen (max-width: 600px) {
     p {
-        font-size: 25px;
+        font-size: 100px;
     }
     
     .small {
