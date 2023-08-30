@@ -1,0 +1,39 @@
+p {
+    font-family: Satisfy;
+    font-size: 31px;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.small {
+    font-size: 20px;
+}
+
+.extra-small {
+    font-size: 16px;
+}
+
+footer {
+    background-color: rgb(236, 236, 236);
+    padding: 16px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 449px) {
+    p {
+        font-size: 25px;
+    }
+    
+    .small {
+        font-size: 16px;
+    }
+
+    .extra-small {
+        font-size: 10px;
+    }
+}
