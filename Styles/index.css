@@ -24,7 +24,7 @@ footer {
     justify-content: space-between;
 }
 
-@media screen (max-width: 450px) {
+@media screen (max-width: 600px) {
     p {
         font-size: 25px;
     }
